@@ -1,4 +1,4 @@
-# fish-weight-prediction-with-popular-regression-models
+# Fish-weight-prediction-with-popular-regression-models
 This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market).
 
 ## EDA of the dataset 
