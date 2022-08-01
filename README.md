@@ -12,7 +12,12 @@ Where :-
  - w and b are trainable parameters(also referred coefficients, weights). 
  The goal is to find w and b such that we minimize the cost function 
  
-$$residuals = {\sum_{ i=1}^n}{({y_i-y'_i})^{2}}$$
+$${SS_(residuals)} = {\sum_{ i=1}^n}{({y_i-y'_i})^{2}}$$
+
+- We update w and b using gradient descent algorithm until convergence.
+
+$$ {w_(new)} = {w_(current)}$$
+
 
 
 This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market).
