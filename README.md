@@ -4,13 +4,15 @@
 - Linear regression models are supervised machine learning algorithms which predicts target variable Y based on Independent variables X.
 
 
-                           Y = wx+ b
+ $$Y = wx+ b$$
    
 Where :-  
  -  w is intercept in the y-axis
  -  b is a slope
  - w and b are trainable parameters(also referred coefficients, weights). 
  The goal is to find w and b such that we minimize the cost function 
+ 
+$$residuals = {\sum_{ i=1}^n}{({y_i-y'_i})^{2}}$$
 
 
 This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market).
