@@ -16,7 +16,7 @@ $${SS_(residuals)} = {\sum_{ i=1}^n}{({y_i-y'_i})^{2}}$$
 
 - We update w and b using gradient descent algorithm until convergence.
 
-$$ {w_(new)} = {w_(current)}$$
+$$ {w_(new)} = {w_(current) - lr * \\frac{\partial SS_(residuals)}{\partial w_(current) } }$$
 
 
 
