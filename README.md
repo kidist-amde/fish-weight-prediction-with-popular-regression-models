@@ -1,11 +1,11 @@
 # Fish-weight-prediction-with-popular-regression-models
 
+
 ##  Linear regression modles
 - Linear regression models are supervised machine learning algorithms which predicts target variable Y based on Independent variables X.
 
-
  $$Y = wx+ b$$
-   
+
 Where :-  
  -  w is intercept in the y-axis
  -  b is a slope
@@ -24,23 +24,23 @@ Where
 
 
 
-This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market).
+#### This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market).
 
-## EDA of the dataset 
-### Pairwise relationships in a dataset
+# EDA of the dataset 
+## Pairwise relationships in a dataset
 <img src="imgs/p.png">
 
-### Visualize the outliers of the dataset
+## Visualize the outliers of the dataset
 <img src =imgs/b.png>
 
-### Distribution of the dataset after standardization and noise removal 
+## Distribution of the dataset after standardization and noise removal 
 <img src =imgs/dist.png>
 
-### Visualize relationships between variables of dataset
+## Visualize relationships between variables of dataset
 <img src =imgs/h.png>
 
 
-## Results of the models 
+# Results of the models 
    
     
 <div>
@@ -114,15 +114,15 @@ This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/a
 
 
 
-### A learning curve of a best model
+## A learning curve of a best model (LGBMRegressor)
 <img src= imgs/lc.png>
 
-###  Residual Plot
+##  Residual Plot
 <img src= imgs/r.png>
 
-# The best model actual value  vs prediction value plot 
+## The best model actual value  vs prediction value plot 
 <img src = imgs/win.png>
 
-# Normal Q-Q plot
+## Normal Q-Q plot of best model 
 <img src = imgs/qq.png>
 
