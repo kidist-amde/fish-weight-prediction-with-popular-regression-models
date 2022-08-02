@@ -16,7 +16,11 @@ $${SS_(residuals)} = {\sum_{ i=1}^n}{({y_i-y'_i})^{2}}$$
 
 - We update w and b using gradient descent algorithm until convergence.
 
-$$ {w_(new)} = {w_(current) - lr * \\frac{\partial SS_(residuals)}{\partial w_(current) } }$$
+$$ {w_n} = {w_c - lr * \\frac{\partial SS_(residuals)}{\partial w_c } }$$
+
+Where
+- ${w_c}$ is the current value of w
+- ${w_n}$  is the new updated value of w
 
 
 
@@ -110,8 +114,15 @@ This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/a
 
 
 
-### A learning curve for Random forest regressor
+### A learning curve of a best model
 <img src= imgs/lc.png>
 
 ###  Residual Plot
 <img src= imgs/r.png>
+
+# The best model actual value  vs prediction value plot 
+<img src = imgs/win.png>
+
+# Normal Q-Q plot
+<img src = imgs/qq.png>
+
