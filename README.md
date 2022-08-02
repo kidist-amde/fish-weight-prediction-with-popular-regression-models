@@ -22,7 +22,11 @@ Where
 - ${w_c}$ is the current value of w
 - ${w_n}$  is the new updated value of w
 
-
+```diff
+- Our problem is  MultipleLinear Regression. linear regression problem only has one independent variable
+- impacting the slope of the relationship,but multiple regression incorporates multiple independent variables.
+```
+ $$Y = {w_1}{x_1}+{w_2}{x_2} + {w_3}{x_3}......{w_n}{x_n} + b$$
 
 #### This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market).
 
