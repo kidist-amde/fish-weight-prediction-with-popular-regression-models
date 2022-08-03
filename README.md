@@ -130,6 +130,6 @@ Where
 ## Normal Q-Q plot of best model 
 <img src = imgs/qq.png>
 
-## Regplot of target vs prediction on validation data set
+## Regplot of target vs prediction on validation dataset
 <img src = imgs/gg.png>
 
