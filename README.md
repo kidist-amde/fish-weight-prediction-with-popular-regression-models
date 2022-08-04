@@ -4,11 +4,11 @@
 ##  Linear regression modles
 - Linear regression models are supervised machine learning algorithms which predicts target variable Y based on Independent variables X.
 
- $$Y = wx+ b$$
+ $$Y = wx+ β$$
 
 Where :-  
  -  w is intercept in the y-axis
- -  b is a slope
+ -  β is a slope
  - w and b are trainable parameters(also referred coefficients, weights). 
  The goal is to find w and b such that we minimize the cost function 
  
@@ -26,7 +26,7 @@ Where
 - Our problem is  MultipleLinear Regression. linear regression problem only has one independent variable
 - impacting the slope of the relationship,but multiple regression incorporates multiple independent variables.
 ```
- $$Y = {w_1}{x_1}+{w_2}{x_2} + {w_3}{x_3}......{w_n}{x_n} + b$$
+ $$Y = {w_1}{x_1}+{w_2}{x_2} + {w_3}{x_3}......{w_n}{x_n} + β$$
 
 #### This proejct uses Fish market [kaggle dataset](https://www.kaggle.com/datasets/aungpyaeap/fish-market).
 
